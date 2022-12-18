@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> should render the large size 1`] = `
+<img
+  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+  src="https://images.unsplash.com/photo-1671160033378-4e6329f56555?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+/>
+`;
+
+exports[`<Image /> should render the larger size 1`] = `
+<img
+  class="styles__Wrapper-sc-y6e3xk-0 eovvNM"
+  src="https://images.unsplash.com/photo-1671160033378-4e6329f56555?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+/>
+`;
+
+exports[`<Image /> should render the medium size 1`] = `
+<img
+  class="styles__Wrapper-sc-y6e3xk-0 cePpyH"
+  src="https://images.unsplash.com/photo-1671160033378-4e6329f56555?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+/>
+`;
+
+exports[`<Image /> should render the small size 1`] = `
+<img
+  class="styles__Wrapper-sc-y6e3xk-0 defLky"
+  src="https://images.unsplash.com/photo-1671160033378-4e6329f56555?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+/>
+`;

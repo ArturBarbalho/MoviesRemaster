@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> should render the image src correctly 1`] = `
+<main
+  class="styles__Wrapper-sc-10z8pg5-0"
+>
+  <div
+    class="styles__About-sc-10z8pg5-1 cdBpPv"
+  >
+    <h1
+      class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+    >
+       
+       
+      ONYANKOPON
+      <span>
+        (1800)
+      </span>
+       
+       
+    </h1>
+    <div
+      class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+    >
+      <img
+        alt="icon1"
+        src="icon1.png"
+      />
+      <img
+        alt="icon2"
+        src="icon2.png"
+      />
+      <img
+        alt="icon3"
+        src="icon3.png"
+      />
+      <img
+        alt="icon4"
+        src="icon4.png"
+      />
+    </div>
+    <button
+      class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+      color="black"
+    >
+      See more
+    </button>
+  </div>
+  <img
+    class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+    src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+  />
+</main>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Overview /> should render the large size 1`] = `
+<p
+  class="styles__Wrapper-sc-mhbed0-0 gIpRWZ"
+>
+  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+</p>
+`;
+
+exports[`<Overview /> should render the medium size 1`] = `
+<p
+  class="styles__Wrapper-sc-mhbed0-0 FTjwm"
+>
+  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+</p>
+`;
+
+exports[`<Overview /> should render the overview text and the small size 1`] = `
+<p
+  class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+>
+  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+</p>
+`;
