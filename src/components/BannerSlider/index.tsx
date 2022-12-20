@@ -10,7 +10,7 @@ type props = {
  
 const BannerSlider = ({bannerprops}:props) => {
 
-  //this was necessary because the media querie does not works in the .slick-docs class
+  //this was necessary because the media querie does not works in the .slick-dots class
   const largura = innerWidth
   const [left,setLeft] = useState('-51%')
   const [right,setRight] = useState('-49%')

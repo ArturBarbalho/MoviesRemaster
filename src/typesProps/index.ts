@@ -1,3 +1,9 @@
+export type CardProps = {
+  title:string
+  id:number
+  src:string
+  media:'movie'|'tv'
+}
 export type BannerProps = {
   src:string
   title:string

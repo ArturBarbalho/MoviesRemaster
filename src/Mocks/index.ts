@@ -1,4 +1,11 @@
-import { BannerProps } from "../typesProps";
+import { BannerProps, CardProps } from "../typesProps";
+
+export const CardMock:CardProps = {
+  id:2,
+  media:'movie',
+  src:'http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg',
+  title:'ONYANKOPON 2 O RETORNO'
+}
 
 export const BannerMock:BannerProps = {
     media: 'movie',

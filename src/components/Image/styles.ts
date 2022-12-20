@@ -5,9 +5,12 @@ import media from 'styled-media-query'
 const Modifiers = {
     small:()=>css`
     width:350px;
-    ${media.lessThan('small')`
-        width:50vw;
-    `}  
+    @media(max-width:450px){
+        width:205px;
+    } 
+    @media(max-width:400px){
+        width:160px;
+    } 
     `,
     medium:()=>css`
     width:50%;
