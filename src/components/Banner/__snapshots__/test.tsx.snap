@@ -39,6 +39,11 @@ exports[`<Banner /> should render the image src correctly 1`] = `
         src="icon4.png"
       />
     </div>
+    <p
+      class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+    </p>
     <button
       class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
       color="black"

@@ -62,7 +62,7 @@ export const Functions = {
             media:media
         }
         const path = {
-            pathname:`/details/${title}`,
+            pathname:`/about/${title}`,
             query: query
         }
         const router = useRouter()

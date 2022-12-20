@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
 
 type props = {
     size:'banner'|'details'|'bigger'
@@ -17,19 +16,50 @@ const Modifier = {
    
     `,
     details:()=>css`
-    
+    display: inline-block;
+    margin-left:10px;
     `,
     bigger:()=>css`
-    
+    margin-left:30px;
+    font-size:40px;
+    @media(max-width:1400px){       
+    font-size:25px;                
+    }
+    @media(max-width:900px){    
+    font-size:20px;
+    }
+    @media(max-width:750px){
+    margin-left:5px;
+    }
     `,
 }
 
 export const Genre = styled.div<props>`
 ${({size})=>css`
-${Modifier[size]()}
+${ !!size && Modifier[size]()}
 color:white;
 `}
 `
-export const Wrapper = styled.div`
 
+const WrapperModifier = {
+    bigger:()=>css`
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    @media(max-width:750px){
+    flex-direction:column;
+}
+    `,
+    banner:()=>css`
+    
+    `,
+    details:()=>css`
+    
+    `
+}
+
+export const Wrapper = styled.div<props>`
+${({size})=>css`
+${!!size && WrapperModifier[size]()}
+`}
 `

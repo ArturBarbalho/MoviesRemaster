@@ -7,4 +7,4 @@ export default {
   component: Genres
 } as Meta
 
-export const Default: Story = () => <Genres size='banner' genres={BannerMock.genres} />
+export const Default: Story = () => <Genres size='details' genres={BannerMock.genres} />
