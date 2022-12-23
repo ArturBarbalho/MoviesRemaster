@@ -54,7 +54,7 @@ describe('<Image />', () => {
       />)
 
     expect(screen.getByRole('img')).toHaveStyle(
-      'width:100vw;'
+      'width:100%;'
     )
 
     expect(container.firstChild).toMatchSnapshot()

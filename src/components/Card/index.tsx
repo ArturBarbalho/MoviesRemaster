@@ -5,7 +5,7 @@ import * as S from './styles'
 type props = {props: CardProps}
 const Card = ({props}:props) => (
   <S.Wrapper>
-    <S.Over onClick={()=>Functions.Details(props.title,props.id,props.media)} />
+    <S.Over data-testid={'over'} onClick={()=>Functions.Details(props.title,props.id,props.media)} />
     <Image size='small' src={props.src} />
   </S.Wrapper>
 )

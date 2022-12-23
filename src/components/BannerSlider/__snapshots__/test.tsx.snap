@@ -1,0 +1,781 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BannerSlider /> should render one slick peer time 1`] = `
+<main
+  class="styles__Wrapper-sc-15uod80-0 hpFuLL"
+>
+  <section
+    class="styles__Wrapper-sc-12nwagl-0 fTUMGo"
+  >
+    <div
+      class="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="-1"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="3"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="4"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="5"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="6"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="7"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="8"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="9"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <main
+                class="styles__Wrapper-sc-10z8pg5-0"
+              >
+                <div
+                  class="styles__About-sc-10z8pg5-1 iPpMOt"
+                >
+                  <h1
+                    class="styles__Wrapper-sc-1buurg8-0 kNhFRm"
+                  >
+                     
+                     
+                    ONYANKOPON
+                    <span>
+                      (1800)
+                    </span>
+                     
+                     
+                  </h1>
+                  <div
+                    class="styles__Icon-sc-10z8pg5-2 fXDdrQ"
+                  >
+                    <img
+                      alt="icon1"
+                      src="icon1.png"
+                    />
+                    <img
+                      alt="icon2"
+                      src="icon2.png"
+                    />
+                    <img
+                      alt="icon3"
+                      src="icon3.png"
+                    />
+                    <img
+                      alt="icon4"
+                      src="icon4.png"
+                    />
+                  </div>
+                  <p
+                    class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                  </p>
+                  <button
+                    class="styles__Wrapper-sc-11qq8g6-0 hNDJSY"
+                    color="black"
+                  >
+                    See more
+                  </button>
+                </div>
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+              </main>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="slick-dots"
+        style="display: block;"
+      >
+        <li
+          class="slick-active"
+        >
+          <button>
+            1
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            2
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            3
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            4
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            5
+          </button>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+`;

@@ -22,8 +22,7 @@ const Modifiers = {
     object-fit:cover;
     `,
     larger:()=>css`
-    width:100vw;
-    height: 100vh;
+    width:100%;
     `,
 }
 

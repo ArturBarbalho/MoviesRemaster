@@ -1,7 +1,8 @@
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import '../../../.jest/match-media-mock'
 import BannerSlider from '.'
 import { BannerMock } from '../../Mocks'
+
 const parms = [ BannerMock,BannerMock,BannerMock,BannerMock,BannerMock]
 
 describe('<BannerSlider />', () => {

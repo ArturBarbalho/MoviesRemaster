@@ -9,7 +9,7 @@ type props = {
 }
 
 const Cardslider = ({props}:props) => (
-  <S.Wrapper>
+  <S.Wrapper >
     <Slider settings={settings} >
     {props.map((e)=>{
       return(

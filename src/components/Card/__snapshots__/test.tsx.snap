@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should appear when the mouse is hover 1`] = `
+<div
+  class="styles__Wrapper-sc-1xbaftz-0"
+>
+  <div
+    class="styles__Over-sc-1xbaftz-1 KCXaO"
+    data-testid="over"
+  />
+  <img
+    class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+    src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
+  />
+</div>
+`;
+
+exports[`<Card /> should render the image 1`] = `
+<div
+  class="styles__Wrapper-sc-1xbaftz-0"
+>
+  <div
+    class="styles__Over-sc-1xbaftz-1 KCXaO"
+    data-testid="over"
+  />
+  <img
+    class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+    src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
+  />
+</div>
+`;

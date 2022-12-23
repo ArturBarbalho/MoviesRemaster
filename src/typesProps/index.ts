@@ -1,3 +1,13 @@
+export type bigbannerProps = {
+  bigsrc:string
+  smallsrc:string
+  genres:string[]
+  overview:string
+  title:string
+  id:number
+  media:'tv'|'movie'
+} 
+
 export type CardProps = {
   title:string
   id:number

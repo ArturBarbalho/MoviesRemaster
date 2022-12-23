@@ -12,9 +12,11 @@ const Modifier = {
     medium:()=> css`
     max-width:1000px;
     margin-top:60px;
+    margin-left:20px;
     @media(max-width:900px){
         font-size:15px;
         margin-top:10px;
+        margin-left:0;
 }
     `,
     large:()=> css`

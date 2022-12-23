@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BiggerBannerSlider /> should render the heading 1`] = `
+<section
+  class="styles__Wrapper-sc-ks0hj3-0"
+>
+  <section
+    class="styles__Wrapper-sc-12nwagl-0 fTUMGo"
+  >
+    <div
+      class="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="-1"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="styles__Wrapper-sc-18y4bwb-0"
+              >
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 gHPgtQ"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+                <div
+                  class="styles__Cont-sc-18y4bwb-1 kgmLvR"
+                  data-testid="cont"
+                >
+                  <img
+                    class="styles__Wrapper-sc-y6e3xk-0 cePpyH"
+                    src="https://image.tmdb.org/t/p/original//ifRFLx83Xk1DcwAS3OScgI6HmWO.jpg"
+                  />
+                  <div>
+                    <div
+                      class="styles__Wrapper-sc-6y5ihb-1 daGpDx"
+                    >
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Action
+                      </div>
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Comedy
+                      </div>
+                    </div>
+                    <p
+                      class="styles__Wrapper-sc-mhbed0-0 gpZHFY"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                    </p>
+                    <div
+                      class="styles__ButtonDiv-sc-18y4bwb-2 brWXpG"
+                    >
+                      <button
+                        class="styles__Wrapper-sc-11qq8g6-0 jDrFTe"
+                        color="gray"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="styles__Wrapper-sc-18y4bwb-0"
+              >
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 gHPgtQ"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+                <div
+                  class="styles__Cont-sc-18y4bwb-1 kgmLvR"
+                  data-testid="cont"
+                >
+                  <img
+                    class="styles__Wrapper-sc-y6e3xk-0 cePpyH"
+                    src="https://image.tmdb.org/t/p/original//ifRFLx83Xk1DcwAS3OScgI6HmWO.jpg"
+                  />
+                  <div>
+                    <div
+                      class="styles__Wrapper-sc-6y5ihb-1 daGpDx"
+                    >
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Action
+                      </div>
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Comedy
+                      </div>
+                    </div>
+                    <p
+                      class="styles__Wrapper-sc-mhbed0-0 gpZHFY"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                    </p>
+                    <div
+                      class="styles__ButtonDiv-sc-18y4bwb-2 brWXpG"
+                    >
+                      <button
+                        class="styles__Wrapper-sc-11qq8g6-0 jDrFTe"
+                        color="gray"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="styles__Wrapper-sc-18y4bwb-0"
+              >
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 gHPgtQ"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+                <div
+                  class="styles__Cont-sc-18y4bwb-1 kgmLvR"
+                  data-testid="cont"
+                >
+                  <img
+                    class="styles__Wrapper-sc-y6e3xk-0 cePpyH"
+                    src="https://image.tmdb.org/t/p/original//ifRFLx83Xk1DcwAS3OScgI6HmWO.jpg"
+                  />
+                  <div>
+                    <div
+                      class="styles__Wrapper-sc-6y5ihb-1 daGpDx"
+                    >
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Action
+                      </div>
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Comedy
+                      </div>
+                    </div>
+                    <p
+                      class="styles__Wrapper-sc-mhbed0-0 gpZHFY"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                    </p>
+                    <div
+                      class="styles__ButtonDiv-sc-18y4bwb-2 brWXpG"
+                    >
+                      <button
+                        class="styles__Wrapper-sc-11qq8g6-0 jDrFTe"
+                        color="gray"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="2"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="styles__Wrapper-sc-18y4bwb-0"
+              >
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 gHPgtQ"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+                <div
+                  class="styles__Cont-sc-18y4bwb-1 kgmLvR"
+                  data-testid="cont"
+                >
+                  <img
+                    class="styles__Wrapper-sc-y6e3xk-0 cePpyH"
+                    src="https://image.tmdb.org/t/p/original//ifRFLx83Xk1DcwAS3OScgI6HmWO.jpg"
+                  />
+                  <div>
+                    <div
+                      class="styles__Wrapper-sc-6y5ihb-1 daGpDx"
+                    >
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Action
+                      </div>
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Comedy
+                      </div>
+                    </div>
+                    <p
+                      class="styles__Wrapper-sc-mhbed0-0 gpZHFY"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                    </p>
+                    <div
+                      class="styles__ButtonDiv-sc-18y4bwb-2 brWXpG"
+                    >
+                      <button
+                        class="styles__Wrapper-sc-11qq8g6-0 jDrFTe"
+                        color="gray"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="3"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="styles__Wrapper-sc-18y4bwb-0"
+              >
+                <img
+                  class="styles__Wrapper-sc-y6e3xk-0 gHPgtQ"
+                  src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+                />
+                <div
+                  class="styles__Cont-sc-18y4bwb-1 kgmLvR"
+                  data-testid="cont"
+                >
+                  <img
+                    class="styles__Wrapper-sc-y6e3xk-0 cePpyH"
+                    src="https://image.tmdb.org/t/p/original//ifRFLx83Xk1DcwAS3OScgI6HmWO.jpg"
+                  />
+                  <div>
+                    <div
+                      class="styles__Wrapper-sc-6y5ihb-1 daGpDx"
+                    >
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Action
+                      </div>
+                      <div
+                        class="styles__Genre-sc-6y5ihb-0 egsKaq"
+                      >
+                        Comedy
+                      </div>
+                    </div>
+                    <p
+                      class="styles__Wrapper-sc-mhbed0-0 gpZHFY"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+                    </p>
+                    <div
+                      class="styles__ButtonDiv-sc-18y4bwb-2 brWXpG"
+                    >
+                      <button
+                        class="styles__Wrapper-sc-11qq8g6-0 jDrFTe"
+                        color="gray"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+`;

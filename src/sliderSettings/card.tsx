@@ -5,8 +5,8 @@ export const settings:Settings = {
     slidesToShow:4,
     infinite:true,
     touchMove:false,
-    nextArrow:<Right/> ,
-    prevArrow: <Left/> ,
+    nextArrow:  <Right/>,
+    prevArrow: <Left/>,
     variableWidth:true,
     responsive:[
         {
