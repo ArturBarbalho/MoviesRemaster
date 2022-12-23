@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should render the heading 1`] = `
+<section
+  class="styles__Wrapper-sc-g2zawo-0 gLOqk"
+>
+  <div
+    class="styles__Wrapper-sc-1xbaftz-0 bFIDRl"
+  >
+    <div
+      class="styles__Over-sc-1xbaftz-1 gkCTgj"
+      data-testid="over"
+    />
+    <img
+      class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
+      src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
+    />
+  </div>
+  <div
+    class="styles__Wrapper-sc-1xbaftz-0 bFIDRl"
+  >
+    <div
+      class="styles__Over-sc-1xbaftz-1 gkCTgj"
+      data-testid="over"
+    />
+    <img
+      class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
+      src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
+    />
+  </div>
+</section>
+`;

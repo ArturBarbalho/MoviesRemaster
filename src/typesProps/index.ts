@@ -1,3 +1,13 @@
+export type DetailsProps = {
+  smallsrc: string
+  bigsrc:string
+  genres:string[]
+  overview:string
+  title:string
+  id:number
+  relase:string
+  vote_avarage:number
+}
 export type bigbannerProps = {
   bigsrc:string
   smallsrc:string

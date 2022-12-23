@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Details /> should render the correct text 1`] = `
+<main
+  class="styles__Wrapper-sc-yoymcz-0 iySqxh"
+>
+  <div
+    class="styles__Content-sc-yoymcz-2 jioCrE"
+  >
+    <img
+      class="styles__Wrapper-sc-y6e3xk-0 cePpyH"
+      src="https://image.tmdb.org/t/p/original//ifRFLx83Xk1DcwAS3OScgI6HmWO.jpg"
+    />
+    <div
+      class="styles__Info-sc-yoymcz-1 Suydv"
+    >
+      <p>
+         
+        <span>
+          Relase date:
+        </span>
+         
+        2008-04-14
+      </p>
+      <p>
+        <span>
+          Vote avarage:
+        </span>
+         
+        5
+      </p>
+      <p>
+        <span
+          style="margin-right: 0px;"
+        >
+          Genres: 
+        </span>
+         
+        <div
+          class="styles__Wrapper-sc-6y5ihb-1"
+        >
+          <div
+            class="styles__Genre-sc-6y5ihb-0 gCAQid"
+          >
+            Action
+          </div>
+          <div
+            class="styles__Genre-sc-6y5ihb-0 gCAQid"
+          >
+            Comedy
+          </div>
+        </div>
+         
+      </p>
+      <p
+        class="styles__Wrapper-sc-mhbed0-0 ldjcec"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
+      </p>
+    </div>
+  </div>
+  <img
+    class="styles__Wrapper-sc-y6e3xk-0 kFeMay"
+    src="https://image.tmdb.org/t/p/original//9VIURlZvfnmFACs2m0MdUDDC3In.jpg"
+  />
+</main>
+`;

@@ -7,7 +7,7 @@ const Modifier = {
     small:()=> css`
     max-width:900px;
     margin-top:30px;
-    
+    text-shadow:2px 2px 2px black;
     `,
     medium:()=> css`
     max-width:1000px;

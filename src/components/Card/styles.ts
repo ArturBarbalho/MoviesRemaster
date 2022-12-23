@@ -1,6 +1,15 @@
 import styled from 'styled-components'
 import media from 'styled-media-query'
 export const Wrapper = styled.div`
+height: 515px;
+
+@media(max-width:450px){
+    height: 280px;
+    
+    } 
+    @media(max-width:400px){
+        height:200px;
+    }
 `
 export const Over = styled.div`
 opacity:0;
@@ -13,11 +22,11 @@ background-color:black;
 width:350px;
 height: 515px;
 @media(max-width:450px){
-        width:205px;
+        width:47vw;
+        height: 280px;
     } 
 @media(max-width:400px){
-        width:160px;
-        height:233px;
+        height: 200px;
     } 
 
 `
