@@ -6,7 +6,7 @@ const Modifiers = {
     width:350px;
     @media(max-width:450px){
         width:47vw;
-       
+        
     } 
    
     `,

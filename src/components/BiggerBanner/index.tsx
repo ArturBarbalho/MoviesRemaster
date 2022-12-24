@@ -5,12 +5,17 @@ import Overview from '../Overview'
 import * as S from './styles'
 import {Functions} from '../../getdata/index'
 import { bigbannerProps } from '../../typesProps'
+import { useRouter } from 'next/router'
 
 type props = {
   props:bigbannerProps
 }
 
-const BiggerBanner = ({props}:props) => (
+const BiggerBanner = ({props}:props) =>{
+ const router = useRouter()
+ const path = Functions.RouterPath(props.title,props.id,props.media)
+
+return (
   <S.Wrapper>
     <Image src={props.bigsrc} size='larger' />
     <S.Cont data-testid='cont'>  
@@ -19,11 +24,11 @@ const BiggerBanner = ({props}:props) => (
         <Genres genres={props.genres} size='bigger' /> 
         <Overview size='medium' overview={props.overview}/>
         <S.ButtonDiv>
-        <Button onClick={()=>Functions.Details(props.title,props.id,props.media)} color='gray'/> 
+        <Button onClick={()=>router.push(path)} color='gray'/> 
         </S.ButtonDiv>                         
         </div>                                                   
     </S.Cont>
   </S.Wrapper>
 )
-
+}
 export default BiggerBanner

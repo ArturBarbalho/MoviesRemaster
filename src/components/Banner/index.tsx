@@ -5,10 +5,14 @@ import Button from '../Button';
 import { Functions } from '../../getdata';
 import { BannerProps } from '../../typesProps/index';
 import Overview from '../Overview';
+import { useRouter } from 'next/router';
 type props = {
   bannerProps: BannerProps
 }
-const Banner = ({bannerProps}:props) => (
+const Banner = ({bannerProps}:props) =>{
+  const router = useRouter()
+  const path = Functions.RouterPath(bannerProps.title,bannerProps.id,bannerProps.media)
+ return(
   <S.Wrapper>
 
     <S.About>
@@ -21,11 +25,11 @@ const Banner = ({bannerProps}:props) => (
           <img alt='icon4' src='icon4.png'/>
     </S.Icon>
     <Overview overview={bannerProps.overview} size='small' />
-    <Button onClick={ ()=> Functions.Details(bannerProps.title,bannerProps.id,bannerProps.media)} color='black'  />
+    <Button onClick={ ()=> router.push(path)} color='black'  />
     </S.About>
 
     <Image src={bannerProps.src} size='large'/>
   </S.Wrapper>
 )
-
+}
 export default Banner

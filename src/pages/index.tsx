@@ -3,6 +3,10 @@ import { GetData } from '../getdata'
 import BannerSlider from '../components/BannerSlider'
 import { BannerProps, CardProps, Genres, bigbannerProps, movieResults } from '../typesProps'
 import { organizer } from '../getdata/props_organizer'
+import Cardslider from '../components/Cardslider'
+import List from '../components/List'
+import BiggerBannerSlider from '../components/BiggerBannerSlider/index';
+import Title from '../components/Title'
 type props = {
   banner:BannerProps[],
   cardslider:CardProps[],
@@ -15,8 +19,13 @@ const Home: NextPage<props> = ({banner,cardslider,list,bigbanner}) => {
 
   return (
     < >
-    {/*  <BannerSlider bannerprops={banner.slice(0,5)} />  */}
-
+      <BannerSlider bannerprops={banner.slice(0,5)} />  
+      <Title size='medium' >TOP RATED</Title>
+      <Cardslider props={cardslider} />
+      <Title size='medium' >POPULAR</Title>
+      <List props={list} />
+      <Title size='medium' >UPCOMING</Title>
+      <BiggerBannerSlider props={bigbanner} />
     </> 
   )
 }
@@ -37,7 +46,6 @@ const cardslider = organizer.cards(topRated,genres)
 const list = organizer.cards(popular,genres)
 const bigbanner = organizer.biggerbanner(upcoming,genres)
 
-console.log(bigbanner)
   return {
     props: {
       banner:banner,

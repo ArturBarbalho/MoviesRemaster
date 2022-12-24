@@ -1,5 +1,4 @@
 import { Genres } from "../typesProps"
-import { useRouter } from 'next/router';
 const key = '?api_key=4f4b4e5fe94ea194d54f83e0b1cd5bf8'
 const link = 'https://api.themoviedb.org/3/'
 
@@ -56,7 +55,7 @@ export const Functions = {
         
     },
 
-    Details(title:string, id:number,media:'movie'|'tv'){
+    RouterPath(title:string, id:number,media:'movie'|'tv'){
         const query = {
             id:id.toString(),
             media:media
@@ -65,9 +64,7 @@ export const Functions = {
             pathname:`/about/${title}`,
             query: query
         }
-        const router = useRouter()
-
-        router.push(path)
+        return path
     }
 
 }

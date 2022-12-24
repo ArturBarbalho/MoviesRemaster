@@ -8,7 +8,7 @@ height: 515px;
     
     } 
     @media(max-width:400px){
-        height:200px;
+        height:270px;
     }
 `
 export const Over = styled.div`
@@ -26,7 +26,7 @@ height: 515px;
         height: 280px;
     } 
 @media(max-width:400px){
-        height: 200px;
+        height: 270px;
     } 
 
 `

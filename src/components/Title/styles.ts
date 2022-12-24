@@ -23,7 +23,9 @@ const Modifiers = {
         color: white;
         width: 250px;
         font-size:50px;
-        margin-bottom:30px;
+        padding-bottom:50px;
+        margin:auto;
+        margin-top:50px;
     `
 }
 
