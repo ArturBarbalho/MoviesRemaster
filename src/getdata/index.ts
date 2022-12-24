@@ -6,7 +6,7 @@ const link = 'https://api.themoviedb.org/3/'
 async function Fetch(lnk:string){
     const request = await fetch(lnk)
     const res = await request.json()
-    return res.results
+    return res
 }
 
 
@@ -15,23 +15,23 @@ export const GetData = {
     async movies(categorie:'top_rated'|'popular'|'upcoming'|'latest'|'now_playing'){
      const lnk = `${link}movie/${categorie}${key}`
      const res = await Fetch(lnk)
-     return res
+     return res.results
     },
 
     async tv(categorie:'on_the_air'|'airing_today'|'latest'|'popular'|'top_rated'){
         const lnk = `${link}tv/${categorie}${key}`
         const res = await Fetch(lnk)
-        return res   
+        return res.results  
     },
     async genresList(media:'tv'|'movie'){
-        const lnk = `${link}genre/${media}${key}`
+        const lnk = `${link}genre/${media}/list${key}`
         const res = await Fetch(lnk)
-        return res
+        return res.genres
     },
     async details(id:number, media:'movie'|'tv'){
         const lnk = `${link}${media}/${id}${key}`
         const res = await Fetch(lnk)
-        return res
+        return res.results
     }
   
 }
@@ -50,7 +50,7 @@ export const Functions = {
         
     },
 
-    getImgSource(path:string){
+    getImgSource(path:string|null){
         const imgLink = 'https://image.tmdb.org/t/p/original/'
         return `${imgLink}${path}`
         

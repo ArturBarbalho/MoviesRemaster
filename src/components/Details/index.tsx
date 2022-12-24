@@ -13,12 +13,14 @@ const Details = ({props}:props) => (
       <S.Info>
         <p> <span>Relase date:</span> {props.relase}</p>
         <p><span>Vote avarage:</span> {props.vote_avarage}</p>
-        <p ><span style={{marginRight:'0'}} >Genres: </span> <Genres genres={props.genres} size='details'/> </p>
+        <S.Gen>
+        <p><span style={{marginRight:'0'}} >Genres: </span></p>
+        <Genres genres={props.genres} size='details'/> 
+        </S.Gen> 
         <Overview overview={props.overview} size='small' />
       </S.Info>
     </S.Content>
     <Image src={props.bigsrc} size='large' />
-    
   </S.Wrapper>
 )
 

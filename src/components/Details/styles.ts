@@ -46,3 +46,12 @@ ${media.lessThan('medium')`
     margin-top:100px;
 }
 `
+
+export const Gen = styled.div`
+font-size:22px;
+display: flex;
+align-items:center;
+${media.lessThan('small')`
+justify-content:center;
+`}
+`

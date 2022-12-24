@@ -34,7 +34,6 @@ export type BannerProps = {
   genres:string[]
 }
 
-
 export type Genres = {
     id:number
     name:string
@@ -88,3 +87,9 @@ export type autorDetails =
   avatar_path: string | null
   rating: boolean | null | number
 }
+export type reviewsProps = {
+name:string
+content: string
+src:string
+}
+

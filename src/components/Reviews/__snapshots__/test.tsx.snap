@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Reviews /> should render the correct values 1`] = `
+<main
+  class="styles__Wrapper-sc-1wkts46-0"
+>
+  <div
+    class="styles__Unit-sc-1wkts46-1 IOSPO"
+  >
+    <img
+      class="styles__Img-sc-1wkts46-2 kevLAL"
+      src="https://image.tmdb.org/t/p/original//sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg"
+    />
+    <div
+      class="styles__Right-sc-1wkts46-3 emiuqb"
+    >
+      <h2>
+        ONYANKOPON
+      </h2>
+      <p>
+        Mas devo explicar-lhe como nasceu toda essa idéia equivocada de denunciar um prazer e louvar a dor, e lhe darei um relato ...
+      </p>
+    </div>
+  </div>
+</main>
+`;

@@ -18,6 +18,7 @@ const Modifier = {
     details:()=>css`
     display: inline-block;
     margin-left:10px;
+    margin-bottom:5px;
     `,
     bigger:()=>css`
     margin-left:30px;
@@ -54,6 +55,7 @@ const WrapperModifier = {
     
     `,
     details:()=>css`
+    display: inline-block;
     
     `
 }
