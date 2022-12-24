@@ -1,4 +1,4 @@
-import { BannerProps, Genres, movieResults } from "../typesProps"
+import { BannerProps, CardProps, Genres, bigbannerProps, movieResults } from "../typesProps"
 import { Functions } from './index';
 
 function GenImg(list:Genres[],e:movieResults){
@@ -32,7 +32,41 @@ export const organizer = {
       return bnr  
 },
 
+cards(movie:movieResults[],list:Genres[]){
+    const crd = movie.map((e)=>{
+        const genimg = GenImg(list,e)
+        const data:CardProps = {
+            id:e.id,
+            media:'movie',
+            src:genimg.path,
+            title:e.title
+        }
+        return data
+    })
+   return crd 
+},
 
+biggerbanner(movie:movieResults[],list:Genres[]){
+    const bgbnr = movie.map((e)=>{
+        const genimg = GenImg(list,e)
+        const data:bigbannerProps = {
+            bigsrc:genimg.backdrop,
+            smallsrc:genimg.path,
+            genres:genimg.genres,
+            id:e.id,
+            media:'movie',
+            overview:e.overview,
+            title:e.title
+        }
+        return data
+    })
+   return bgbnr 
+},
 
-
+details(){
+    ''
+},
+reviews(){
+    ''
+}
 }
