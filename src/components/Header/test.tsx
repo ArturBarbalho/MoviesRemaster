@@ -6,7 +6,9 @@ describe('<Header />', () => {
   it('should render the heading', () => {
     const { container } = render(<Header />)
 
-    expect(screen.getByRole('heading', { name: /Header/i })).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: /MOVIES/i })).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: /TV SHOWS/i })).toBeInTheDocument()
+    expect(screen.getByRole('img')).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })
