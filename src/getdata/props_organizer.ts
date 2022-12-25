@@ -1,7 +1,7 @@
 import { BannerProps, CardProps, Genres, bigbannerProps, movieResults } from "../typesProps"
 import { Functions } from './index';
 
-function GenImg(list:Genres[],e:movieResults){
+export function GenImg(list:Genres[],e:movieResults){
     const genres = Functions.getGenre(e.genre_ids,list)
     const backdrop = Functions.getImgSource(e.backdrop_path)
     const path = Functions.getImgSource(e.poster_path)
