@@ -1,3 +1,45 @@
+export type GetMovieDetails = {
+  adult:boolean
+  backdrop_path:string | null
+  belongs_to_collection:null | object
+  budget:number
+  genres:Genres[]
+  homepage:string | null
+  id:number
+  imdb_id:string | null
+  original_language:string
+  original_title:string
+  overview:string 
+  popularity:number
+  poster_path:string | null
+  production_companies: production_companies
+  production_countries:production_countries
+  release_date:string
+  revenue:number
+  runtime:number | null
+  spoken_languages:spoken_languages
+  status:string
+  tagline:string | null
+  title:string
+  video:boolean
+  vote_average:number
+  vote_count:number
+
+}
+type spoken_languages = {
+  iso_639_1:string
+  name:string
+}
+type production_companies = {
+  name:string
+  id:number
+  logo_path:string | null
+  origin_country:string
+}
+type production_countries = {
+  iso_3166_1:string
+  name:string
+}
 export type DetailsProps = {
   smallsrc: string
   bigsrc:string
@@ -90,6 +132,6 @@ export type autorDetails =
 export type reviewsProps = {
 name:string
 content: string
-src:string
+src:string | null
 }
 

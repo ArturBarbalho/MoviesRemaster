@@ -27,11 +27,16 @@ export const GetData = {
         const res = await Fetch(lnk)
         return res.genres
     },
-    async details(id:number, media:'movie'|'tv'){
+    async details(id:string|string[]|undefined, media:'movie'|'tv'){
         const lnk = `${link}${media}/${id}${key}`
         const res = await Fetch(lnk)
+        return res
+    },
+    async reviews(id:string|string[]|undefined, media:'movie'|'tv'){
+        const lnk = `${link}${media}/${id}/reviews${key}`
+        const res = await Fetch(lnk)
         return res.results
-    }
+    },
   
 }
 
@@ -58,10 +63,9 @@ export const Functions = {
     RouterPath(title:string, id:number,media:'movie'|'tv'){
         const query = {
             id:id.toString(),
-            media:media
         }
         const path = {
-            pathname:`/about/${title}`,
+            pathname:`/${media}/${title}`,
             query: query
         }
         return path

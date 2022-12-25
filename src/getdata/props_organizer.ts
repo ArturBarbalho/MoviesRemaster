@@ -1,4 +1,4 @@
-import { BannerProps, CardProps, Genres, bigbannerProps, movieResults } from "../typesProps"
+import { BannerProps, CardProps, DetailsProps, Genres, GetMovieDetails, bigbannerProps, movieResults, reviewsProps, reviews } from "../typesProps"
 import { Functions } from './index';
 
 export function GenImg(list:Genres[],e:movieResults){
@@ -63,10 +63,32 @@ biggerbanner(movie:movieResults[],list:Genres[]){
    return bgbnr 
 },
 
-details(){
-    ''
+details(movie:GetMovieDetails){
+    const genres = movie.genres.map((e)=>{
+        return e.name
+    })
+    const data:DetailsProps = {
+        bigsrc:`https://image.tmdb.org/t/p/original${movie.backdrop_path}`,
+        genres:genres,
+        id:movie.id,
+        overview:movie.overview,
+        relase:movie.release_date,
+        smallsrc:`https://image.tmdb.org/t/p/original${movie.poster_path}`,
+        title:movie.title,
+        vote_avarage:movie.vote_average
+    }
+    return data
 },
-reviews(){
-    ''
-}
+reviews(reviews:reviews[]){
+    const rvws = reviews.map((e)=>{
+        const data:reviewsProps = {
+            content:e.content,
+            name:e.author,
+            src:e.author_details.avatar_path ? e.author_details.avatar_path.substring(1):e.author_details.avatar_path
+        }
+        return data
+    })
+    return rvws
+},
+
 }
