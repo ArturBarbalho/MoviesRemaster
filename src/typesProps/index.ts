@@ -1,3 +1,37 @@
+export type GetTvDetails = {
+  backdrop_path:string | null
+  created_by: []
+  episode_run_time:number[]
+  first_air_date:string
+  genres:Genres[]
+  homepage:string | null
+  id:number
+  in_production:boolean
+  languages:string[]
+  last_air_date:string
+  last_episode_to_air:[]
+  name:string
+  next_episode_to_air:null|[]
+  networks:[]
+  number_of_episodes:number
+  number_of_seasons:number
+  origin_country:string[]
+  original_language:string
+  original_name:string
+  overview:string
+  popularity:number
+  poster_path:string
+  production_companies:production_companies[]
+  production_countries:production_countries[]
+  seasons:[]
+  spoken_languages:spoken_languages[]
+  status:string
+  tagline:string
+  type:string
+  vote_average:number
+  vote_count:number
+}
+
 export type GetMovieDetails = {
   adult:boolean
   backdrop_path:string | null
@@ -12,12 +46,12 @@ export type GetMovieDetails = {
   overview:string 
   popularity:number
   poster_path:string | null
-  production_companies: production_companies
-  production_countries:production_countries
+  production_companies: production_companies[]
+  production_countries:production_countries[]
   release_date:string
   revenue:number
   runtime:number | null
-  spoken_languages:spoken_languages
+  spoken_languages:spoken_languages[]
   status:string
   tagline:string | null
   title:string

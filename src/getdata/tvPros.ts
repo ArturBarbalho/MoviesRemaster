@@ -1,5 +1,5 @@
 import { Functions } from "."
-import { BannerProps, CardProps, Genres, bigbannerProps, tvResults } from "../typesProps"
+import { BannerProps, CardProps, DetailsProps, Genres, GetTvDetails, bigbannerProps, reviewsProps, tvResults, reviews } from "../typesProps"
 
 export function GenImg(list:Genres[],e:tvResults){
     const genres = Functions.getGenre(e.genre_ids,list)
@@ -63,10 +63,32 @@ export const TVorganizer = {
      return bgbnr 
   },
   
-  details(){
-      ''
-  },
-  reviews(){
-      ''
-  }
+  details(tv:GetTvDetails){
+    const genres = tv.genres.map((e)=>{
+        return e.name
+    })
+    const data:DetailsProps = {
+        bigsrc:`https://image.tmdb.org/t/p/original${tv.backdrop_path}`,
+        genres:genres,
+        id:tv.id,
+        overview:tv.overview,
+        relase:tv.first_air_date,
+        smallsrc:`https://image.tmdb.org/t/p/original${tv.poster_path}`,
+        title:tv.name,
+        vote_avarage:tv.vote_average
+    }
+    return data
+},
+reviews(reviews:reviews[]){
+    const rvws = reviews.map((e)=>{
+        const data:reviewsProps = {
+            content:e.content,
+            name:e.author,
+            src:e.author_details.avatar_path ? e.author_details.avatar_path.substring(1):e.author_details.avatar_path
+        }
+        return data
+    })
+    return rvws
+},
+
   }
