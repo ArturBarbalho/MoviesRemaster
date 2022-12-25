@@ -37,6 +37,11 @@ export const GetData = {
         const res = await Fetch(lnk)
         return res.results
     },
+    async similars(id:string|string[]|undefined, media:'movie'|'tv'){
+        const lnk = `${link}${media}/${id}/similar${key}`
+        const res = await Fetch(lnk)
+        return res.results  
+    }
   
 }
 
