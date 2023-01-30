@@ -2,10 +2,32 @@
 
 exports[`<Header /> should render the heading 1`] = `
 <main
-  class="styles__Wrapper-sc-u7lf7e-0"
+  class="styles__Wrapper-sc-u7lf7e-0 fFXhBd"
 >
-  <h1>
-    Header
-  </h1>
+  <div
+    class="styles__Logo-sc-u7lf7e-1 YqXdl"
+  >
+    <img
+      alt=""
+      src="movie-frame.png"
+    />
+    <h3>
+      FREEPOP
+    </h3>
+  </div>
+  <div
+    class="styles__DivLinks-sc-u7lf7e-2 OxcRP"
+  >
+    <a
+      href="/"
+    >
+      MOVIES
+    </a>
+    <a
+      href="/tv"
+    >
+      TV SHOWS
+    </a>
+  </div>
 </main>
 `;

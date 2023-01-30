@@ -29,29 +29,31 @@ exports[`<Details /> should render the correct text 1`] = `
          
         5
       </p>
-      <p>
-        <span
-          style="margin-right: 0px;"
-        >
-          Genres: 
-        </span>
-         
+      <div
+        class="styles__Gen-sc-yoymcz-3 fZJhvW"
+      >
+        <p>
+          <span
+            style="margin-right: 0px;"
+          >
+            Genres: 
+          </span>
+        </p>
         <div
-          class="styles__Wrapper-sc-6y5ihb-1"
+          class="styles__Wrapper-sc-6y5ihb-1 hOLMLT"
         >
           <div
-            class="styles__Genre-sc-6y5ihb-0 gCAQid"
+            class="styles__Genre-sc-6y5ihb-0 hhqlsD"
           >
             Action
           </div>
           <div
-            class="styles__Genre-sc-6y5ihb-0 gCAQid"
+            class="styles__Genre-sc-6y5ihb-0 hhqlsD"
           >
             Comedy
           </div>
         </div>
-         
-      </p>
+      </div>
       <p
         class="styles__Wrapper-sc-mhbed0-0 ldjcec"
       >

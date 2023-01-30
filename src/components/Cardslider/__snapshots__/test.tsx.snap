@@ -3,7 +3,6 @@
 exports[`<Cardslider /> should render the right number of slides 1`] = `
 <section
   class="styles__Wrapper-sc-bipfd5-0 iLNsun"
-  data-testid="warp"
 >
   <section
     class="styles__Wrapper-sc-12nwagl-0 fTUMGo"
@@ -12,28 +11,24 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
       class="slick-slider slick-initialized"
       dir="ltr"
     >
-      <span
-        class="slick-arrow slick-prev"
+      <svg
+        aria-hidden="true"
+        class="StyledIconBase-sc-ea9ulj-0 dXOYdB styles__Left-sc-bipfd5-1 dPtzgn slick-arrow slick-prev"
+        currentSlide="0"
         data-role="none"
+        fill="currentColor"
+        focusable="false"
+        slideCount="10"
         style="display: block;"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
       >
-         
-        <svg
-          aria-hidden="true"
-          class="StyledIconBase-sc-ea9ulj-0 dXOYdB styles__Left-sc-bipfd5-1 dPtzgn"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            clip-rule="evenodd"
-            d="M9.707 14.707a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414l4-4a1 1 0 0 1 1.414 1.414L7.414 9H15a1 1 0 1 1 0 2H7.414l2.293 2.293a1 1 0 0 1 0 1.414z"
-            fill-rule="evenodd"
-          />
-        </svg>
-         
-      </span>
+        <path
+          clip-rule="evenodd"
+          d="M9.707 14.707a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414l4-4a1 1 0 0 1 1.414 1.414L7.414 9H15a1 1 0 1 1 0 2H7.414l2.293 2.293a1 1 0 0 1 0 1.414z"
+          fill-rule="evenodd"
+        />
+      </svg>
       <div
         class="slick-list"
       >
@@ -49,14 +44,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -70,14 +65,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -91,14 +86,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -112,14 +107,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -133,14 +128,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -154,14 +149,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -175,14 +170,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -196,14 +191,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -217,14 +212,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -238,14 +233,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -260,14 +255,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -282,14 +277,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -304,14 +299,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -326,14 +321,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -348,14 +343,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -370,14 +365,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -392,14 +387,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -414,14 +409,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -436,14 +431,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -458,14 +453,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -479,14 +474,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -500,14 +495,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -521,14 +516,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -542,14 +537,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -563,14 +558,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -584,14 +579,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -605,14 +600,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -626,14 +621,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -647,14 +642,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -668,14 +663,14 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           >
             <div>
               <div
-                class="styles__Wrapper-sc-1xbaftz-0"
+                class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
               >
                 <div
-                  class="styles__Over-sc-1xbaftz-1 KCXaO"
+                  class="styles__Over-sc-1xbaftz-1 fRvyVk"
                   data-testid="over"
                 />
                 <img
-                  class="styles__Wrapper-sc-y6e3xk-0 hYSqaj"
+                  class="styles__Wrapper-sc-y6e3xk-0 fOWEhk"
                   src="http://www.claquete.com/fotos/filmes/poster/12861_medio.jpg"
                 />
               </div>
@@ -683,28 +678,24 @@ exports[`<Cardslider /> should render the right number of slides 1`] = `
           </div>
         </div>
       </div>
-      <span
-        class="slick-arrow slick-next"
+      <svg
+        aria-hidden="true"
+        class="StyledIconBase-sc-ea9ulj-0 dXOYdB styles__Right-sc-bipfd5-2 jiWySE slick-arrow slick-next"
+        currentSlide="0"
         data-role="none"
+        fill="currentColor"
+        focusable="false"
+        slideCount="10"
         style="display: block;"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
       >
-         
-        <svg
-          aria-hidden="true"
-          class="StyledIconBase-sc-ea9ulj-0 dXOYdB styles__Right-sc-bipfd5-2 jiWySE"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            clip-rule="evenodd"
-            d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z"
-            fill-rule="evenodd"
-          />
-        </svg>
-         
-      </span>
+        <path
+          clip-rule="evenodd"
+          d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z"
+          fill-rule="evenodd"
+        />
+      </svg>
     </div>
   </section>
 </section>

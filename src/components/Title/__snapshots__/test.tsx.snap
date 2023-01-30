@@ -12,7 +12,7 @@ exports[`<Title /> should render the larger title  1`] = `
 
 exports[`<Title /> should render the medium title 1`] = `
 <h1
-  class="styles__Wrapper-sc-1buurg8-0 fnXpPP"
+  class="styles__Wrapper-sc-1buurg8-0 fVOjsO"
 >
    
   POPULAR

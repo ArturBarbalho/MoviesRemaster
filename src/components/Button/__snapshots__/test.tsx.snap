@@ -17,12 +17,3 @@ exports[`<Button /> should render the gray color 1`] = `
   See more
 </button>
 `;
-
-exports[`<Button /> should render the heading 1`] = `
-<button
-  class="styles__Wrapper-sc-11qq8g6-0 jDrFTe"
-  color="gray"
->
-  See more
-</button>
-`;

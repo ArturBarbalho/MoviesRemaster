@@ -18,7 +18,7 @@ const Modifier = {
     details:()=>css`
     display: inline-block;
     margin-left:10px;
-    margin-bottom:5px;
+    margin-bottom:30px;
     `,
     bigger:()=>css`
     margin-left:30px;

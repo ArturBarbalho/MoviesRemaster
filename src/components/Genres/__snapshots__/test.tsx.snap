@@ -36,15 +36,15 @@ exports[`<Genres /> should render the bigger size 1`] = `
 
 exports[`<Genres /> should render the details size 1`] = `
 <div
-  class="styles__Wrapper-sc-6y5ihb-1"
+  class="styles__Wrapper-sc-6y5ihb-1 hOLMLT"
 >
   <div
-    class="styles__Genre-sc-6y5ihb-0 gCAQid"
+    class="styles__Genre-sc-6y5ihb-0 hhqlsD"
   >
     Action
   </div>
   <div
-    class="styles__Genre-sc-6y5ihb-0 gCAQid"
+    class="styles__Genre-sc-6y5ihb-0 hhqlsD"
   >
     Comedy
   </div>
@@ -53,15 +53,15 @@ exports[`<Genres /> should render the details size 1`] = `
 
 exports[`<Genres /> should render the right genres 1`] = `
 <div
-  class="styles__Wrapper-sc-6y5ihb-1"
+  class="styles__Wrapper-sc-6y5ihb-1 hOLMLT"
 >
   <div
-    class="styles__Genre-sc-6y5ihb-0 gCAQid"
+    class="styles__Genre-sc-6y5ihb-0 hhqlsD"
   >
     Action
   </div>
   <div
-    class="styles__Genre-sc-6y5ihb-0 gCAQid"
+    class="styles__Genre-sc-6y5ihb-0 hhqlsD"
   >
     Comedy
   </div>

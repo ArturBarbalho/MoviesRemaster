@@ -5,10 +5,10 @@ exports[`<List /> should render the heading 1`] = `
   class="styles__Wrapper-sc-g2zawo-0 gLOqk"
 >
   <div
-    class="styles__Wrapper-sc-1xbaftz-0 bFIDRl"
+    class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
   >
     <div
-      class="styles__Over-sc-1xbaftz-1 gkCTgj"
+      class="styles__Over-sc-1xbaftz-1 fRvyVk"
       data-testid="over"
     />
     <img
@@ -17,10 +17,10 @@ exports[`<List /> should render the heading 1`] = `
     />
   </div>
   <div
-    class="styles__Wrapper-sc-1xbaftz-0 bFIDRl"
+    class="styles__Wrapper-sc-1xbaftz-0 cSoiqW"
   >
     <div
-      class="styles__Over-sc-1xbaftz-1 gkCTgj"
+      class="styles__Over-sc-1xbaftz-1 fRvyVk"
       data-testid="over"
     />
     <img

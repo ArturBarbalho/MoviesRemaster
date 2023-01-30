@@ -10,7 +10,7 @@ exports[`<Overview /> should render the large size 1`] = `
 
 exports[`<Overview /> should render the medium size 1`] = `
 <p
-  class="styles__Wrapper-sc-mhbed0-0 FTjwm"
+  class="styles__Wrapper-sc-mhbed0-0 gpZHFY"
 >
   Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
 </p>
@@ -18,7 +18,7 @@ exports[`<Overview /> should render the medium size 1`] = `
 
 exports[`<Overview /> should render the overview text and the small size 1`] = `
 <p
-  class="styles__Wrapper-sc-mhbed0-0 fSwUgG"
+  class="styles__Wrapper-sc-mhbed0-0 ldjcec"
 >
   Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis...
 </p>
