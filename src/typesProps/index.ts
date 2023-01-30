@@ -166,6 +166,6 @@ export type autorDetails =
 export type reviewsProps = {
 name:string
 content: string
-src:string | null | undefined
+src:string | undefined
 }
 
