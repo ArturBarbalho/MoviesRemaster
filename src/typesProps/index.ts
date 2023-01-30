@@ -160,7 +160,7 @@ export type autorDetails =
  {
   name: string
   username: string
-  avatar_path: string | null
+  avatar_path: string | undefined
   rating: boolean | null | number
 }
 export type reviewsProps = {
